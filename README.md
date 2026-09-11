@@ -242,8 +242,8 @@ hypothesis.
 ## Running it
 
 ```bash
-pip install -r requirements.txt
-python analysis.py
+pip install -r requirements_1.txt
+python Analysis.py
 ```
 
 Self-tests run first and need no internet — if they pass, the logic is sound and
@@ -252,5 +252,5 @@ any later failure is a data or network problem. Market data is cached in
 
 | file | |
 |---|---|
-| `analysis.py` | self-tests, data, analysis, figures — everything |
-| `etf_step1.ipynb` | the exploratory notebook this grew out of |
+| `Analysis.py` | self-tests, data, analysis, figures — everything |
+| `etf_step1_2.ipynb` | the exploratory notebook this grew out of |
